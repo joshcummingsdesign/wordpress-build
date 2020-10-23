@@ -16,11 +16,6 @@ if (!defined('ABSPATH')) {
   exit;
 }
 
-/**
- * Plugin root file.
- */
-define('JCD_PLUGIN_FILE', __FILE__);
-
-require plugin_dir_path(JCD_PLUGIN_FILE) . 'vendor/autoload.php';
+require __DIR__ . 'vendor/autoload.php';
 
 Main::getInstance()->boot();

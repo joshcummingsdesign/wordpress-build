@@ -40,19 +40,7 @@ final class Main {
       return;
     }
 
-    $this->setupConstants();
-
     add_action('plugins_loaded', [$this, 'init'], 0);
-  }
-
-  /**
-   * Setup plugin constants.
-   */
-  private function setupConstants() {
-    /**
-     * Plugin directory path.
-     */
-    define('JCD_PLUGIN_DIR', plugin_dir_path(JCD_PLUGIN_FILE));
   }
 
   /**
