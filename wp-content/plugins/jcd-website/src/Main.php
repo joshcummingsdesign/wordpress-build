@@ -52,7 +52,7 @@ final class Main {
   }
 
   /**
-   * Return the plugin's PHP version upgrade notice.
+   * Return the plugin's PHP update notice.
    */
   public function phpUpdateNotice() {
     if (!is_admin()) {
