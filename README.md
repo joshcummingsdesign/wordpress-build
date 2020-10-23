@@ -20,10 +20,10 @@ A nice little WordPress starter build.
 
 VSCode users are encouraged to install the following extensions:
 
-* PHP Intelephense
-* PHP-CS-Fixer
-* phpcs
-* Prettier - Code formatter
+* [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+* [PHP-CS-Fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
+* [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs)
+* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 And add the following settings:
 
@@ -35,6 +35,5 @@ And add the following settings:
   "phpcs.standard": "./phpcs.xml",
   "php-cs-fixer.executable": "./vendor/bin/php-cs-fixer",
   "php-cs-fixer.configFile": "./.php_cs",
-  "php-cs-fixer.onSave": true
 }
 ```
