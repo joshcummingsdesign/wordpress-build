@@ -29,8 +29,8 @@ And add the following settings:
 
 ```json
 {
-  "php.validate.executablePath": "/your/path/to/php",
   "php.suggest.basic": false,
+  "php.validate.executablePath": "/your/path/to/php",
   "phpcs.executablePath": "./vendor/bin/phpcs",
   "phpcs.standard": "./phpcs.xml",
   "php-cs-fixer.executable": "./vendor/bin/php-cs-fixer",
