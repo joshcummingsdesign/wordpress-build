@@ -1,0 +1,10 @@
+{
+  "name": "joshcummingsdesign/wordpress-build",
+  "license": "MIT",
+  "description": "A nice little WordPress starter build.",
+  "homepage": "https://joshcummingsdesign.com",
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.5",
+    "friendsofphp/php-cs-fixer": "^2.16"
+  }
+}

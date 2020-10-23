@@ -1,0 +1,12 @@
+{
+  "name": "joshcummingsdesign/my-website",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "description": "Custom plugin for the JCD website.",
+  "homepage": "https://joshcummingsdesign.com",
+  "autoload": {
+    "psr-4": {
+      "JCDWebsite\\": "./"
+    }
+  }
+}

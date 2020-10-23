@@ -1,0 +1,21 @@
+{
+  "name": "wordpress-build",
+  "private": true,
+  "scripts": {
+    "postinstall": "./scripts/postinstall.sh"
+  },
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.2",
+    "prettier": "^2.1.2"
+  },
+  "lint-staged": {
+    "*.{tsx,ts,js,json}": "prettier --write",
+    "*.php": "php ./vendor/bin/php-cs-fixer fix --config .php_cs"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

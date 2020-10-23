@@ -1,0 +1,33 @@
+# System
+.DS_Store
+
+# Dependencies
+node_modules
+vendor
+
+# Ignore everything except wp-content
+/*
+!.editorconfig
+!.gitignore
+!.php_cs
+!composer.json
+!composer.lock
+!package.json
+!phpcs.xml
+!README.md
+!yarn.lock
+!scripts
+!wp-content
+
+# Ignore everything in wp-content except plugins and themes
+wp-content/*
+!wp-content/plugins
+!wp-content/themes
+
+# Only version the plugins we want
+wp-content/plugins/*
+!wp-content/plugins/jcd-website
+
+# Only version the themes we want
+wp-content/themes/*
+!wp-content/themes/jcd-website
