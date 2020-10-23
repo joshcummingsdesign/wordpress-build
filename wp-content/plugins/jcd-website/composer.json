@@ -6,7 +6,7 @@
   "homepage": "https://joshcummingsdesign.com",
   "autoload": {
     "psr-4": {
-      "JCDWebsite\\": "./"
+      "JCDWebsite\\": "src/"
     }
   }
 }
