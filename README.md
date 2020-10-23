@@ -18,7 +18,14 @@ A nice little WordPress starter build.
 
 ## VSCode
 
-Create a settings.json file in `./.vscode` with the following:
+VSCode users are encouraged to install the following extensions:
+
+* PHP Intelephense
+* PHP-CS-Fixer
+* phpcs
+* Prettier - Code formatter
+
+And add the following settings:
 
 ```json
 {
