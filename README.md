@@ -15,3 +15,19 @@ A nice little WordPress starter build.
 2.  Install the project dependencies
 
         yarn
+
+## VSCode
+
+Create a settings.json file in `./.vscode` with the following:
+
+```json
+{
+  "php.validate.executablePath": "/your/path/to/php",
+  "php.suggest.basic": false,
+  "phpcs.executablePath": "./vendor/bin/phpcs",
+  "phpcs.standard": "./phpcs.xml",
+  "php-cs-fixer.executable": "./vendor/bin/php-cs-fixer",
+  "php-cs-fixer.configFile": "./.php_cs",
+  "php-cs-fixer.onSave": true
+}
+```
