@@ -4,9 +4,9 @@ A nice little WordPress starter build.
 
 ## Requirements
 
-- Node ^12.19.0
-- Yarn ^1.22.5
-- Local ^5.8.2
+- [Node](https://nodejs.org) ^12.19.0
+- [Yarn](https://yarnpkg.com) ^1.22.5
+- [Local](https://localwp.com) ^5.8.2
 
 ## Getting Started
 
