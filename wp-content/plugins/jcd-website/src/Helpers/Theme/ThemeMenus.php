@@ -4,7 +4,7 @@ namespace JCDWebsite\Helpers\Theme;
 
 class ThemeMenus {
   /**
-   * Theme menu initialization.
+   * Initialize theme menus.
    */
   public function init() {
     $this->registerMenus();

@@ -3,6 +3,7 @@
 namespace JCDWebsite;
 
 use JCDWebsite\Helpers\Theme\ThemeMenus;
+use JCDWebsite\Helpers\Theme\ThemeAssets;
 
 /**
  * Main plugin class (Singleton).
@@ -40,7 +41,24 @@ final class Main {
       return;
     }
 
+    $this->setupConstants();
+
     add_action('plugins_loaded', [$this, 'init'], 0);
+  }
+
+  /**
+   * Setup plugin constants.
+   */
+  public function setupConstants() {
+    /**
+     * Theme directory.
+     */
+    define('JCD_THEME_DIR', get_theme_file_path());
+
+    /**
+     * Theme URI.
+     */
+    define('JCD_THEME_URI', get_theme_file_uri());
   }
 
   /**
@@ -48,7 +66,10 @@ final class Main {
    */
   public function init() {
     $themeMenus = new ThemeMenus();
+    $themeAssets = new ThemeAssets();
+
     $themeMenus->init();
+    $themeAssets->init();
   }
 
   /**
