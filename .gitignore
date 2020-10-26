@@ -8,11 +8,12 @@ vendor
 # Build
 dist
 
-# Ignore everything except wp-content
+# Ignore everything except configuration and wp-content
 /*
 !.editorconfig
 !.gitignore
 !.php_cs
+!.prettierrc
 !composer.json
 !composer.lock
 !package.json
